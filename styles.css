@@ -1,0 +1,53 @@
+body {
+    background-color: aliceblue;
+}
+
+.jumbotron {
+    margin-top: 20px;
+    background-image: url("file:///C:/Users/trns4/Documents/frontEndUdacity/portfolioSite/portfolioSite/images/black-and-white-books-business-251225.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#memory,
+#books,
+#map {
+    width: 100%;
+    min-height: 1px;
+    padding-left: 25px;
+    margin-left: 40px;
+}
+
+.rounded-circle {
+    width: 140px;
+    height: 140px;
+    position: center;
+    margin: 15px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 450px) {
+    .row {
+        position: relative;
+        width: 100%;
+        min-height: 1px;
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+}
+
+@media screen and (min-width:451px) and (max-width:767px) {
+    .rounded-circle {
+        margin-left: 140px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .row {
+        width: 90%;
+        padding-right: 55px;
+        padding-left: 0px;
+        flex-wrap: nowrap;
+    }
+}
